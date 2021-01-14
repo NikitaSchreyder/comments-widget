@@ -1,0 +1,36 @@
+.comments-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.comments-form_name-input {
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(200,200,200);
+  padding-left: 10px;
+  outline: none;
+}
+
+.comments-form_comment-input {
+  height: 60px;
+  resize: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(200,200,200);
+  padding: 10px;
+  outline: none;
+}
+
+.comments-form_submit {
+  height: 30px;
+  border-radius: 10px;
+  background-color: blue;
+  border: none;
+  width: 200px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
